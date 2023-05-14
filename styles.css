@@ -94,16 +94,16 @@ button:hover {
 }
 @media (max-width: 500px) {
     .earth-button {
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
     }
     .fire-button{
-        width: 80px;
-        height:80px
+        width: 150px;
+        height:150px
     }
     .water-button{
-        height:80px;
-        width:80px;
+        height:150px;
+        width:150px;
     }
 }
 
