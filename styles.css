@@ -92,10 +92,18 @@ button:hover {
     height: 50px;
     opacity:0;
 }
-@media (max-width: 500px) {
-    img {
+@media (max-width: 480px) {
+    .earth-image {
         width: 50px;
-        height: 50px
+        height: 50px;
+    }
+    .fire-image {
+        width:50px;
+        height:50px
+    }
+    .water-image{
+        height:50px;
+        height:50px;
     }
 }
 
