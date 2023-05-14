@@ -10,7 +10,7 @@ This is my first ever time using **JavaScript, HTML, and CSS** and i was able to
 
 **Later Learning Curve**
 * How to do basic **DOM** manipulation
-* How to grab fonts from web which are in [https://jakerschwartz.github.io/RockPaperScissors/]
+* How to grab fonts from web which are in [https://fonts.google.com]
 * Basic understanding of **JavaScript** including **functions, syntax, and organization**
 
 **Play the game here:** [here](https://jakerschwartz.github.io/RockPaperScissors/) 
