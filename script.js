@@ -14,9 +14,7 @@ let round = 0;
 
 
 function game(userChoice) {
-    console.log(userChoice);
     computerSelection = computerChoice();
-    console.log(computerSelection);
     switch(true){
         case (userChoice === computerSelection):
             gameText.innerText = `You both think alike. Two ${computerSelection}s is a draw and no lives lost.`;
