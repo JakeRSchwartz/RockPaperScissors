@@ -15,7 +15,7 @@ This is my first ever time using **JavaScript, HTML, and CSS** and i was able to
 
 **Play the game here:** [here](https://jakerschwartz.github.io/RockPaperScissors/) 
 
-### Overall Experience
+### Overall Experience/Summary
 * One of the first things that introduced me to front end web-design
 * creating a responsive webpage that can be played by other users
 * Good progression point in my computer science and software engineering journey
