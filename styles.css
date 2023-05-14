@@ -93,17 +93,9 @@ button:hover {
     opacity:0;
 }
 @media  screen and (max-width: 500px) {
-    .earth-button {
-        width: 80px;
-        height: 80px;
-    }
-    .fire-button{
-        width: 80px;
-        height:80px;
-    }
-    .water-button{
-        height:80px;
-        width:80px;
+    img {
+        width: 100px;
+        height: 100px;
     }
 }
 
