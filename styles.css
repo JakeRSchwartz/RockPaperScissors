@@ -92,10 +92,10 @@ button:hover {
     height: 50px;
     opacity:0;
 }
-@media  screen and (max-width: 500px) {
+@media (max-width: 500px) {
     img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 }
 
