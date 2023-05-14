@@ -1,0 +1,97 @@
+body {
+    background:black;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+p {
+    color:white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.title {
+    margin:0;
+    font-family:'Amatic SC', cursive;
+    font-size: 100px;
+    text-align: center;
+    }
+@keyframes fade {
+    from {opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+.fire {
+    color:rgb(252, 90, 31);
+}
+.earth {
+    color:rgb(92, 220, 92);
+}
+.water {
+    color:lightskyblue;
+}
+
+button:hover {
+    transform: scale(1.2);
+    cursor:pointer;
+
+}
+.element-choices {
+    display:flex;
+    justify-content:space-evenly;
+    border: 5px solid white;
+    border-radius:4px;
+}
+.fire-button {
+    background:transparent;
+    border:none;
+}
+.earth-button {
+    background:transparent;
+    border:none;
+}
+.water-button {
+    background:transparent;
+    border:none;
+}
+.score-content {
+    display:flex;
+    border: 5px solid white;
+    border-radius: 4px;
+}
+.computer-elem-choice {
+    margin-right:80px;
+    margin-top:0;
+    width:200px;
+
+}
+.score {
+    border-right: 4px solid white;
+        }
+.round-board {
+    margin:auto;
+
+}
+.game-text {
+    font-size:30px;
+}
+.elem-img {
+    text-align: center;
+}
+.playAgain{
+    margin-top:10px;
+    align-self: center;
+    background-color: black;
+    color:white;
+    font-family:'Amatic SC', cursive;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    opacity:0;
+}
+
+
+

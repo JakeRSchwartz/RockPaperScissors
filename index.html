@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lane="en">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Rock Paper Scissors</title>
+        <link rel="icon" href="image/rock-paper-scissors.png" type="image/png">
+    </head>
+    <body>
+        <header id="g-header">
+            <h1 class="title">
+                <span class="fire">Fire</span>  
+                <span class="earth">Earth</span> 
+                <span class="water">Water</span>
+            </h1>
+            <p> 3 Elements  |  5 Lives  |  1 Choice </p>
+            <p class="winners">
+                <span class="fire">Fire</span> destroys <span class="earth">Earth</span> | 
+                <span class="earth">Earth</span> destroys <span class="water">Water</span> |  
+                <span class="water">Water</span> destroys <span class="fire">Fire</span>
+            </p>
+        </header>
+        <main class="main-content">
+            <div class="element-choices">
+                <button class="fire-button">
+                    <img class="fire-image" src="https://cdn-icons-png.flaticon.com/128/9760/9760376.png" alt="fire" width="150" height="150">
+                </button>
+                <button class="earth-button">
+                <img class="earth-image" src="https://cdn-icons-png.flaticon.com/128/5737/5737171.png" alt="earth" width="150" height = "150">
+                </button>
+                <button class="water-button">
+                <img class="" src="https://cdn-icons-png.flaticon.com/128/4589/4589162.png" alt="water" width="160" height="160">
+                </button>
+            </div>
+            <div>
+                <p ></p>
+            </div>
+            <main class="score-content">
+                <div class="score">
+                    <p class="computer-elem-choice">Opponent's Element: </p>
+                    <p class="elem-img"></p>
+                </div>
+                <div class="round-board">
+                    <p class="round">Round: 0</p>
+                    <p class="your-lives">Your lives: 5</p>
+                    <p class="enemy-lives">Enemy lives: 5</p>
+                    <p class="game-text"></p>
+                </div>
+            </main>
+        </main>
+        <footer>
+            <div class="name-footer">
+                <p>
+                    <button class="playAgain">Play Again?</button>
+                </p>
+                <p>
+                      Jake R. Schwartz Creation's
+                </p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
